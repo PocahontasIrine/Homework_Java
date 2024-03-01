@@ -26,9 +26,9 @@ public class Main {
 
     public static void task3(){
         Scanner scan = new Scanner(System.in);
-        String a = scan.nextLine();
-        String b = scan.nextLine();
-        String c = scan.nextLine();
+        String a = scan.next();
+        String b = scan.next();
+        String c = scan.next();
         System.out.println(a + "\n" + b + "\n" + c);
         System.out.println(a + " " + b + " " + c);
     }
